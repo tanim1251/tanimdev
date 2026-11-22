@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanjimul Hossain Tanim | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Tanjimul Hossain Tanim — CSE Student, Web Developer." />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">THT<span>.</span></a>
+    <div class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html" class="btn btn-primary" style="padding:.45rem 1.2rem;">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-content fade-in">
+      <!-- Avatar image — replace avatar.jpg with your actual photo -->
+      <img
+        src="https://ui-avatars.com/api/?name=Tanjimul+Hossain+Tanim&size=200&background=0d6efd&color=fff&bold=true&rounded=true"
+        alt="Tanjimul Hossain Tanim Profile Photo"
+        class="hero-avatar"
+      />
+
+      <h1>Hi, I'm <span class="highlight">Tanjimul Hossain Tanim</span></h1>
+      <p class="subtitle">I'm a <span class="typed-text" id="typed"></span></p>
+      <p style="color:var(--muted); font-size:.9rem; margin-bottom:1.5rem;">
+        📍 Bogura, Bangladesh &nbsp;|&nbsp; 🎓 CSE @ Daffodil International University
+      </p>
+
+      <div class="btn-group">
+        <a href="projects.html" class="btn btn-primary">View My Work</a>
+        <a href="contact.html" class="btn btn-outline">Hire Me</a>
+      </div>
+    </div>
+
+    <!-- AJAX Quote Widget -->
+    <div class="quote-widget fade-in" style="margin-top:2.5rem;">
+      <p id="quote-text">Loading an inspirational quote…</p>
+      <p id="quote-author"></p>
+    </div>
+  </section>
+
+  <!-- ===== QUICK STATS ===== -->
+  <section class="section" style="padding: 3rem 2rem;">
+    <div class="stats-row fade-in">
+      <div class="stat-box">
+        <div class="num" data-target="5" data-suffix="+">0+</div>
+        <div class="label">Projects Completed</div>
+      </div>
+      <div class="stat-box">
+        <div class="num" data-target="3" data-suffix="+">0+</div>
+        <div class="label">Certifications</div>
+      </div>
+      <div class="stat-box">
+        <div class="num" data-target="2" data-suffix="yr">0yr</div>
+        <div class="label">Learning Experience</div>
+      </div>
+      <div class="stat-box">
+        <div class="num" data-target="8" data-suffix="+">0+</div>
+        <div class="label">Technologies Used</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT I DO ===== -->
+  <section class="section section-alt">
+    <h2 class="section-title fade-in">What I <span class="accent">Do</span></h2>
+    <div class="section-divider"></div>
+    <div class="cards-grid">
+
+      <article class="card fade-in">
+        <div class="card-icon">🌐</div>
+        <h3>Web Development</h3>
+        <p>Building responsive, accessible websites using HTML5, CSS3, and JavaScript. Focus on clean, semantic markup and modern layouts.</p>
+      </article>
+
+      <article class="card fade-in">
+        <div class="card-icon">🗄️</div>
+        <h3>Database Design</h3>
+        <p>Designing relational databases with MySQL. Creating efficient schemas, writing queries, and understanding normalization principles.</p>
+      </article>
+
+      <article class="card fade-in">
+        <div class="card-icon">🐍</div>
+        <h3>Python Programming</h3>
+        <p>Writing Python scripts for data processing, automation, and problem solving. Experience with OOP and standard libraries.</p>
+      </article>
+
+      <article class="card fade-in">
+        <div class="card-icon">📱</div>
+        <h3>UI / UX Thinking</h3>
+        <p>Designing user-friendly interfaces with attention to layout, typography, and color — prioritizing the end-user experience.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PROJECTS PREVIEW ===== -->
+  <section class="section">
+    <h2 class="section-title fade-in">Featured <span class="accent">Projects</span></h2>
+    <div class="section-divider"></div>
+    <div class="cards-grid">
+
+      <article class="card fade-in">
+        <div class="card-icon">🛒</div>
+        <h3>E-Commerce Website</h3>
+        <p>A fully functional online shop with product listings, cart, and checkout flow built in HTML, CSS, JS and PHP.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">PHP</span>
+          <span class="tech-tag">MySQL</span>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <div class="card-icon">📊</div>
+        <h3>Student Result System</h3>
+        <p>A web-based system to store, manage and display student exam results with sorting and filter features.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">SQLite</span>
+        </div>
+      </article>
+
+      <article class="card fade-in">
+        <div class="card-icon">🌤️</div>
+        <h3>Weather Dashboard</h3>
+        <p>Fetches real-time weather data via OpenWeather API and displays it with animated weather icons and charts.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">jQuery</span>
+          <span class="tech-tag">AJAX</span>
+          <span class="tech-tag">API</span>
+        </div>
+      </article>
+
+    </div>
+    <div class="text-center mt-3">
+      <a href="projects.html" class="btn btn-outline">See All Projects →</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener" title="GitHub">🐙</a>
+      <a href="https://linkedin.com/in/tanjimul-hossain-tanim" target="_blank" rel="noopener" title="LinkedIn">💼</a>
+      <a href="mailto:tanjimulhossaintanim@gmail.com" title="Email">📧</a>
+    </div>
+    <p>&copy; 2024 Tanjimul Hossain Tanim. All rights reserved.</p>
+    <p class="mt-1">Student ID: 0242310005101251 | Dept. of CSE | Daffodil International University</p>
+  </footer>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

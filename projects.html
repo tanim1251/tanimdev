@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Tanjimul Hossain Tanim</title>
+  <meta name="description" content="Explore web development and programming projects built by Tanjimul Hossain Tanim." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">THT<span>.</span></a>
+    <div class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html" class="btn btn-primary" style="padding:.45rem 1.2rem;">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <div class="page-banner fade-in">
+    <h1>My <span style="color:var(--primary)">Projects</span></h1>
+    <p>Real-world projects built with passion and purpose</p>
+    <p class="breadcrumb"><a href="index.html">Home</a> → Projects</p>
+  </div>
+
+  <!-- ===== PROJECTS OVERVIEW ===== -->
+  <section class="section">
+    <div style="max-width:800px; margin:0 auto 3rem;" class="fade-in">
+      <p style="color:var(--muted); line-height:1.8; text-align:center;">
+        Below are projects I have built as part of my coursework and self-learning journey.
+        Each project taught me something new — from API integration to database design.
+        Source code for all projects is available on
+        <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+    </div>
+
+    <!-- Project Cards -->
+    <div class="cards-grid">
+
+      <!-- Project 1 -->
+      <article class="card fade-in">
+        <div class="card-icon">🛒</div>
+        <h3>E-Commerce Website</h3>
+        <p style="color:var(--muted); margin-bottom:.8rem;">
+          A multi-page online shopping platform with product catalog, shopping cart,
+          user registration/login, and a checkout form. The backend is powered by PHP
+          and MySQL for persistent data storage.
+        </p>
+        <h4 style="color:var(--accent); font-size:.88rem; margin-bottom:.5rem;">Key Features:</h4>
+        <ul class="styled-list" style="list-style:disc; padding-left:1.3rem; margin-bottom:.8rem;">
+          <li>Product filtering &amp; search</li>
+          <li>Add to cart with quantity control</li>
+          <li>User authentication (register/login)</li>
+          <li>Responsive mobile layout</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">PHP</span>
+          <span class="tech-tag">MySQL</span>
+        </div>
+        <div style="margin-top:1rem; display:flex; gap:.6rem; flex-wrap:wrap;">
+          <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener" class="btn btn-outline" style="padding:.4rem 1rem; font-size:.82rem;">GitHub →</a>
+          <span class="badge badge-blue">Web Dev</span>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card fade-in">
+        <div class="card-icon">📊</div>
+        <h3>Student Result Management System</h3>
+        <p style="color:var(--muted); margin-bottom:.8rem;">
+          A web application to store and manage student exam results. Faculty can add,
+          edit, and delete records. Students can search their results by ID.
+          Built with Python Flask and SQLite.
+        </p>
+        <h4 style="color:var(--accent); font-size:.88rem; margin-bottom:.5rem;">Key Features:</h4>
+        <ul class="styled-list" style="list-style:disc; padding-left:1.3rem; margin-bottom:.8rem;">
+          <li>CRUD operations for results</li>
+          <li>Search by student ID or name</li>
+          <li>Grade calculation &amp; GPA display</li>
+          <li>Export results as CSV</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">SQLite</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+        <div style="margin-top:1rem; display:flex; gap:.6rem; flex-wrap:wrap;">
+          <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener" class="btn btn-outline" style="padding:.4rem 1rem; font-size:.82rem;">GitHub →</a>
+          <span class="badge badge-green">Backend</span>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card fade-in">
+        <div class="card-icon">🌤️</div>
+        <h3>Weather Dashboard</h3>
+        <p style="color:var(--muted); margin-bottom:.8rem;">
+          A single-page weather app that fetches live weather data from the OpenWeatherMap
+          API using AJAX/jQuery. Displays temperature, humidity, wind speed, and a 5-day forecast.
+        </p>
+        <h4 style="color:var(--accent); font-size:.88rem; margin-bottom:.5rem;">Key Features:</h4>
+        <ul class="styled-list" style="list-style:disc; padding-left:1.3rem; margin-bottom:.8rem;">
+          <li>Real-time weather via REST API</li>
+          <li>Search by city name</li>
+          <li>Animated weather icons</li>
+          <li>Temperature unit toggle (°C / °F)</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">jQuery</span>
+          <span class="tech-tag">AJAX</span>
+          <span class="tech-tag">REST API</span>
+        </div>
+        <div style="margin-top:1rem; display:flex; gap:.6rem; flex-wrap:wrap;">
+          <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener" class="btn btn-outline" style="padding:.4rem 1rem; font-size:.82rem;">GitHub →</a>
+          <span class="badge badge-blue">API / AJAX</span>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="card fade-in">
+        <div class="card-icon">📝</div>
+        <h3>To-Do List App</h3>
+        <p style="color:var(--muted); margin-bottom:.8rem;">
+          An interactive to-do list built with vanilla JavaScript and localStorage.
+          Tasks persist after page refresh. Supports priority labels and due dates.
+        </p>
+        <h4 style="color:var(--accent); font-size:.88rem; margin-bottom:.5rem;">Key Features:</h4>
+        <ul class="styled-list" style="list-style:disc; padding-left:1.3rem; margin-bottom:.8rem;">
+          <li>Add, complete, and delete tasks</li>
+          <li>Filter: All / Active / Completed</li>
+          <li>localStorage persistence</li>
+          <li>Drag-and-drop reordering</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">localStorage</span>
+        </div>
+        <div style="margin-top:1rem; display:flex; gap:.6rem; flex-wrap:wrap;">
+          <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener" class="btn btn-outline" style="padding:.4rem 1rem; font-size:.82rem;">GitHub →</a>
+          <span class="badge badge-green">Frontend</span>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="card fade-in">
+        <div class="card-icon">🔢</div>
+        <h3>BMI Calculator</h3>
+        <p style="color:var(--muted); margin-bottom:.8rem;">
+          A web-based BMI calculator that computes body mass index from height and weight
+          inputs and shows the result with a color-coded health category indicator.
+        </p>
+        <div class="tech-tags">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+        <div style="margin-top:1rem;">
+          <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener" class="btn btn-outline" style="padding:.4rem 1rem; font-size:.82rem;">GitHub →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECT SUMMARY TABLE ===== -->
+  <section class="section section-alt">
+    <h2 class="section-title fade-in">Project <span class="accent">Summary</span></h2>
+    <div class="section-divider"></div>
+
+    <div class="table-wrapper fade-in">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Project Name</th>
+            <th>Category</th>
+            <th>Technologies</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>E-Commerce Website</td>
+            <td>Full Stack</td>
+            <td>HTML, CSS, JS, PHP, MySQL</td>
+            <td><span class="badge badge-green">Completed</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Student Result System</td>
+            <td>Backend / Web App</td>
+            <td>Python, Flask, SQLite</td>
+            <td><span class="badge badge-green">Completed</span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Weather Dashboard</td>
+            <td>Frontend / API</td>
+            <td>JS, jQuery, AJAX</td>
+            <td><span class="badge badge-green">Completed</span></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>To-Do List App</td>
+            <td>Frontend</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td><span class="badge badge-green">Completed</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>BMI Calculator</td>
+            <td>Mini Project</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td><span class="badge badge-green">Completed</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/tanjimul-tanim" target="_blank" rel="noopener" title="GitHub">🐙</a>
+      <a href="https://linkedin.com/in/tanjimul-hossain-tanim" target="_blank" rel="noopener" title="LinkedIn">💼</a>
+      <a href="mailto:tanjimulhossaintanim@gmail.com" title="Email">📧</a>
+    </div>
+    <p>&copy; 2024 Tanjimul Hossain Tanim. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
